@@ -1,0 +1,214 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url("fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid white;
+}
+
+header h1 {
+    color: white;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px black;
+}
+
+nav {
+    background-image: url("fondo2.jpg");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 70%;
+    background-image: url("fondo3.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    height: 700PX;
+}
+
+aside {
+    width: 30%;
+    background-image: url("fondo4.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    height: 700PX;
+
+}
+
+aside h2 {
+    text-align: center;
+    color: cyan;
+}
+
+article {
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+h2 {
+    color: cyan;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.imagen {
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 15px;
+    border: 3px solid cyan;
+}
+
+.imagen2 {
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 15px;
+    border: 3px solid orange;
+}
+
+.imagenAside {
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.media {
+    width:40%;
+    margin-top: 15px;
+    border: 3px solid cyan;
+    border-radius: 10px;
+}
+
+.destacado {
+    border: 3px solid yellow;
+    background-color: rgba(255,255,0,0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#definicion {
+    border-left: 7px solid cyan;
+}
+
+#areas {
+    border-left: 7px solid magenta;
+}
+
+#salario {
+    border-left: 7px solid lime;
+}
+
+#tecnologia {
+    border-left: 7px solid orange;
+}
+
+#campo {
+    border-left: 7px solid red;
+}
+
+.casa {
+    color: rgb(0, 255, 132);
+}
+
+a {
+    color: cyan;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+th {
+    background-color: rgba(0,0,0,0.8);
+    color: cyan;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+td {
+    color: white;
+    padding: 15px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+footer {
+    background-image: url("Ajenttss1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 90px;
+    color: white;
+    margin-top: 90px;
+    border-top: 90px solid white;
+}
+
+footer p {
+    text-align: center;
+}
